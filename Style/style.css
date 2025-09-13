@@ -62,8 +62,7 @@ nav ul li a {
   transition: color 0.3s, text-decoration 0.3s;
 }
 
-nav ul li a:hover,
-nav ul li a:focus {
+nav ul li a:hover,nav ul li a:focus {
   color: #0D1B2A;
   text-decoration: underline;
 }
@@ -71,6 +70,7 @@ nav ul li a:focus {
 .menu a.active {
   color: #0D1B2A;
 }
+
 
 /* ---- FOOTER ---- */
 footer {
@@ -80,6 +80,11 @@ footer {
   text-align: center;
   padding: 10px;
   font-size: 12px; /* corregido */
+}
+.redesT, .contactoT, .copyrightT {
+  color: #415A77;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 .redes img {
